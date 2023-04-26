@@ -1,0 +1,40 @@
+noticias
+deportes
+tecnología
+entretenimiento
+moda
+negocios
+finanzas
+salud
+comida
+viajes
+música
+cine
+educación
+empleo
+juegos
+deportes extremos
+redes sociales
+marketing
+emprendimiento
+turismo
+cultura
+arte
+medio ambiente
+belleza
+automóviles
+ciencia
+libros
+compras en línea
+hogar y jardín
+estilo de vida
+mascotas
+espiritualidad
+deportes acuáticos
+historia
+fotografía
+humor
+diseño gráfico
+arquitectura
+psicología
+filosofía
