@@ -1,6 +1,8 @@
-from selenium import webdriver
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
+from selenium import webdriver
 import pathlib
 import time
 
@@ -19,6 +21,7 @@ with webdriver.Edge(options=OPTIONS) as driver:
     for word in WORDLIST:
         try:
             elem = driver.find_element(By.NAME, "q")
+            WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.NAME, "q")))
             elem.clear()
             elem.send_keys(word)
             elem.send_keys(Keys.RETURN)
